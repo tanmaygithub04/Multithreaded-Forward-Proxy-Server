@@ -240,13 +240,6 @@ void* datafromclient(void* sockid)
 	int iServerfd;
 
 	iServerfd = createserverSocket(req->host, req->port);
-	
-	/* To run on IIIT proxy, comment above line and uncomment below line */
-			
-	//char iiitproxy[] = "172.31.1.4";
-	//char iiitport[] = "8080";
-	
-	// iServerfd = createserverSocket(iiitproxy, iiitport);
 
 	writeToserverSocket(browser_req, iServerfd, total_recieved_bits);
 	writeToClient(newsockfd, iServerfd);
