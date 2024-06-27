@@ -6,14 +6,6 @@
 	It hides the client  from the server as server can only track details of proxy server. 
 	We can also filter the browser requests by allowing only those requests  to secure websites. 
 
-##College - proxy :
-
-    Yes, this codes works also with any college - proxy (I tested it on my college proxy) 
-    . Just u need to comment line no 240 and uncomment   lines  244 to 247.In this case,we are making a 
-    proxy server which connects to another proxy server present in our college network and sends the 
-    request to that proxy server and receives data back  from that server.basically it means there 
-    are 2 proxy servers running in middle between client and server. 
-
 ##How to Run :
 
 	clone this project and go to the folder and run "make" through terminal and provide a port 
