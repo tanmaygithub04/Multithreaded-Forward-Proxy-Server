@@ -1,0 +1,1 @@
+-> sockets were initially developed UNIX , windows has its own socket : winsock , or WSA windoes socket api 
