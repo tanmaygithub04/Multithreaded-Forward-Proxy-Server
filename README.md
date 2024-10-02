@@ -2,8 +2,8 @@
 ##Description :
 
 	This HTTP proxy server made in C++ language. It supports only HTTP protocol get method requests .
-	In  simple words proxy server acts as middleware between you and the server u request. 
-	It hides the client  from the server as server can only track details of proxy server. 
+	In  simple words proxy server acts as middleware between you and the server you request. 
+	It hides the client from the server as server can only track details of proxy server. 
 	We can also filter the browser requests by allowing only those requests  to secure websites. 
 
 ##How to Run :
@@ -14,23 +14,6 @@
 	$make
 	$./proxy 6789
 
-	BAAAM ..!! your proxy server starts running on ur local machine port 6789 . 
-	(U can have a port of max number around 65k other than first 1000 system registered ports )
-
-##How to test :
-
-	In the browser , go to Preferences -> Advanced -> Network -> Settings -> 
-	Manual Proxy Configuration.
-	Now, Enter 127.0.0.1 in HTTP proxy field and 6789  in port number field. and press ok .
-
-	(enter the same port number that used in the command line  )
-
-	We can also run through telnet command.
-
-	EX :
-	$ telnet 127.0.0.1 6789
-	$ GET http://www.google.com:80/index.html/ HTTP/1.0\r\nContent-Length:
-  		 80\r\nIf-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT\r\n\r\n
 
 ##How I  Made :
 
